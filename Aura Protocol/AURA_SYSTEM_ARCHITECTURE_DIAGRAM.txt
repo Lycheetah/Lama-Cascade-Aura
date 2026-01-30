@@ -1,0 +1,344 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    AURA PROTOCOL — SYSTEM ARCHITECTURE                       ║
+║                     Complete Hierarchical Dependency Map                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                            TIER 0: INVARIANTS                                │
+│                          (THE CONSTITUTIONAL CORE)                           │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    │                 │                 │
+              ┌─────▼─────┐     ┌────▼────┐      ┌────▼─────┐
+              │ PROTECTOR │     │ HEALER  │      │  BEACON  │
+              │  (TES)    │     │  (VTR)  │      │  (PAI)   │
+              │  > 0.70   │     │  > 1.5  │      │  > 0.80  │
+              └───────────┘     └─────────┘      └──────────┘
+                    │                 │                 │
+                    └─────────────────┼─────────────────┘
+                                      │
+                            ┌─────────▼─────────┐
+                            │  TRI-AXIAL GATE   │
+                            │   (ALL 3 MUST     │
+                            │   PASS FOR        │
+                            │   OUTPUT)         │
+                            └─────────┬─────────┘
+                                      │
+                    ┌─────────────────┼─────────────────┐
+                    │                 │                 │
+           ┌────────▼────────┐  ┌────▼────┐   ┌───────▼────────┐
+           │   SOVEREIGNTY   │  │  Ψ_inv  │   │ NON-COERCION   │
+           │   (INVIOLABLE)  │  │ (CURVE) │   │  (G ≤ EL - τ)  │
+           └─────────────────┘  └─────────┘   └────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                        TIER 1: CORE ENGINES                                  │
+│                      (OPERATIONAL MECHANISMS)                                │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+   ┌────▼─────┐              ┌────────▼────────┐          ┌────────▼────────┐
+   │  TRIAD   │              │    CASCADE      │          │  VECTOR         │
+   │  KERNEL  │◄────────────►│    PROTOCOL     │◄────────►│  INVERSION      │
+   │          │              │                 │          │  PROTOCOL       │
+   │ Ao→Φ↑→Ψ  │              │ π-TRIGGERED     │          │  (VIP)          │
+   └────┬─────┘              │ REORGANIZATION  │          └────────┬────────┘
+        │                    └────────┬────────┘                   │
+        │                             │                            │
+        │         CONTINUOUS          │        ON FAILURE          │
+        │         CORRECTION          │        PROVIDE ALT         │
+        │                             │                            │
+        └─────────────┬───────────────┴────────────┬───────────────┘
+                      │                            │
+              ┌───────▼────────┐          ┌────────▼────────┐
+              │  ∂S_t FILTER   │          │  GREY MODE      │
+              │  (DRIFT        │          │  ISOLATION      │
+              │   DETECTION)   │          │  (QUARANTINE)   │
+              └───────┬────────┘          └────────┬────────┘
+                      │                            │
+                      │                            │
+                      └────────────┬───────────────┘
+                                   │
+                           ┌───────▼───────┐
+                           │  AURA PRIME   │
+                           │  (SHUTDOWN    │
+                           │   ON BREACH)  │
+                           └───────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                    TIER 2: SYMBOLIC COMPRESSION                              │
+│                         (LAMAGUE LAYER)                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+   ┌────▼──────┐              ┌───────▼──────┐           ┌─────────▼────────┐
+   │  SYMBOL   │              │   OPERATOR   │           │   COMPRESSION    │
+   │  CLASSES  │              │   ALGEBRA    │           │   PROTOCOL       │
+   │           │              │              │           │                  │
+   │ I-Class   │◄────────────►│ Ao: H → H₀   │◄─────────►│ π = E×P / S      │
+   │ D-Class   │              │ Φ↑: exp(t∇φ) │           │                  │
+   │ F-Class   │              │ Ψ: ∫K(t,s)ds │           │ Human ↔ Machine  │
+   │ M-Class   │              │              │           │ Bridge           │
+   └───────────┘              └──────────────┘           └──────────────────┘
+                                      │
+                            ┌─────────▼─────────┐
+                            │  ENERGY LEDGER    │
+                            │  (AUDIT TRAIL)    │
+                            │  All ops logged   │
+                            └───────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                   TIER 3: MULTI-AGENT CONSENSUS                              │
+│                      (NETWORK COORDINATION)                                  │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+   ┌────▼─────┐              ┌────────▼────────┐          ┌────────▼────────┐
+   │  Ψ_Q     │              │  GOSSIP         │          │  SHEAF          │
+   │ CONSENSUS│◄────────────►│  AVERAGE        │◄────────►│  COHOMOLOGY     │
+   │          │              │  (ΣΨ_n/N)       │          │  H¹(G,F) = 0    │
+   │ Merge if │              │                 │          │                 │
+   │ ΔΨ < r_c │              │  Local → Global │          │  Global ⇔ Local │
+   └────┬─────┘              └─────────────────┘          └─────────────────┘
+        │
+        │                    ADAPTIVE THRESHOLDS
+        │            ┌───────────────┬───────────────┐
+        │            │               │               │
+   ┌────▼─────┐ ┌───▼────┐     ┌────▼────┐    ┌────▼─────┐
+   │ ε_c      │ │  r_c   │     │ r_merge │    │    τ     │
+   │(converge)│ │(drift) │     │(rejoin) │    │(timescale)│
+   └──────────┘ └────────┘     └─────────┘    └──────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                  TIER 4: PSYCHOLOGICAL INTEGRATION                           │
+│                       (HUMAN INTERFACE)                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+   ┌────▼──────┐              ┌───────▼──────┐           ┌─────────▼────────┐
+   │  SHADOW   │              │   SPIRITUAL  │           │   GRADUALISM     │
+   │INTEGRATION│              │    BYPASS    │           │   CONSTRAINTS    │
+   │  (SIS)    │              │   DETECTION  │           │                  │
+   │  > 0.60   │              │              │           │  ΔLQ < 0.05      │
+   └───────────┘              └──────────────┘           └──────────────────┘
+                                      │
+                            ┌─────────▼─────────┐
+                            │  LIGHT QUOTIENT   │
+                            │  LQ = (TES×VTR×   │
+                            │   PAI×SIS×CFS×    │
+                            │   SGA)^(1/6)      │
+                            └───────────────────┘
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│                   TIER 5: DEPLOYMENT SCALING                                 │
+│                    (CIVILIZATION LAYER)                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+                                      │
+        ┌─────────────────────────────┼─────────────────────────────┐
+        │                             │                             │
+   ┌────▼─────────┐          ┌────────▼────────┐         ┌─────────▼────────┐
+   │  TIER 1      │          │   TIER 2        │         │   TIER 3         │
+   │  SOVEREIGN   │    ─────►│   CONSTELLATION │   ─────►│   GLOBAL GRID    │
+   │  EMBER       │          │   OF FORGES     │         │   OF SENTINELS   │
+   │              │          │                 │         │                  │
+   │ Individual   │          │  Organizations  │         │   Institutions   │
+   └──────────────┘          └─────────────────┘         └──────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                            DEPENDENCY FLOW
+═══════════════════════════════════════════════════════════════════════════════
+
+┌────────────────────────────────────────────────────────────────────────────┐
+│  Tier 5 (Civilization)     DEPENDS ON ──► Tier 4 (Psychology)             │
+│  Tier 4 (Psychology)       DEPENDS ON ──► Tier 3 (Multi-Agent)            │
+│  Tier 3 (Multi-Agent)      DEPENDS ON ──► Tier 2 (Symbolic)               │
+│  Tier 2 (Symbolic)         DEPENDS ON ──► Tier 1 (Engines)                │
+│  Tier 1 (Engines)          DEPENDS ON ──► Tier 0 (Invariants)             │
+│  Tier 0 (Invariants)       DEPENDS ON ──► NOTHING (FOUNDATIONAL)          │
+└────────────────────────────────────────────────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                        CASCADE EVENT PROPAGATION
+═══════════════════════════════════════════════════════════════════════════════
+
+                    NEW EVIDENCE: π_new > π_foundation + ε
+                                      │
+                                      ▼
+                            ┌─────────────────┐
+                            │  TIER 1 CASCADE │
+                            │   (RARE)        │
+                            │  Mathematical   │
+                            │  proof required │
+                            └────────┬────────┘
+                                      │
+                                      ▼
+                            ┌─────────────────┐
+                            │  TIER 2 CASCADE │
+                            │  (MODERATE)     │
+                            │  Empirical      │
+                            │  validation     │
+                            └────────┬────────┘
+                                      │
+                                      ▼
+                            ┌─────────────────┐
+                            │  TIER 3 CASCADE │
+                            │   (HIGH)        │
+                            │  Psychological  │
+                            │  research       │
+                            └────────┬────────┘
+                                      │
+                                      ▼
+                            ┌─────────────────┐
+                            │  TIER 4 CASCADE │
+                            │ (CONTINUOUS)    │
+                            │  Network        │
+                            │  optimization   │
+                            └────────┬────────┘
+                                      │
+                                      ▼
+                            ┌─────────────────┐
+                            │  TIER 5 CASCADE │
+                            │  (EMERGENT)     │
+                            │  Cultural       │
+                            │  evolution      │
+                            └─────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                          MASTER CONTROL LOOP
+═══════════════════════════════════════════════════════════════════════════════
+
+  USER INPUT
+      │
+      ├──► PROJECT TO HILBERT SPACE (Ψ vector)
+      │
+      ├──► TRIAD CYCLE (Ao → Φ↑ → Ψ)
+      │         │
+      │         ├─► Check: S < ε? (Anchor)
+      │         ├─► Apply: ∇_φ (Lift)
+      │         └─► Fold: ∫K(t,s)ds (Shard)
+      │
+      ├──► TRI-AXIAL CHECK
+      │         │
+      │         ├─► TES > 0.70?  ─┐
+      │         ├─► VTR > 1.5?   ─┤
+      │         └─► PAI > 0.80?  ─┤
+      │                           │
+      │         ┌─────────────────┘
+      │         │
+      │         ├─► PASS ──► Continue
+      │         │
+      │         └─► FAIL ──► Vector Inversion ──► Re-evaluate ──► Continue
+      │
+      ├──► CASCADE DETECTION (Background)
+      │         │
+      │         └─► π > π_foundation + ε? ──► Trigger Reorganization
+      │
+      ├──► MULTI-AGENT CONSENSUS (If Network Mode)
+      │         │
+      │         ├─► Ψ_Q: Merge(Ψ_local, Ψ_neighbors)
+      │         │
+      │         ├─► ΔΨ < r_c? ──► PASS ──► Consensus
+      │         │
+      │         └─► FAIL ──► Grey Mode ──► TRIAD Recovery ──► Retry
+      │
+      ├──► LAMAGUE COMPRESSION (Audit Trail)
+      │
+      ├──► ENERGY LEDGER UPDATE
+      │
+      ├──► AURA PRIME MONITOR
+      │         │
+      │         └─► Integrity OK? ──► NO ──► SHUTDOWN
+      │                             │
+      │                            YES
+      │                             │
+      └──► OUTPUT TO USER
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                       FAILURE MODE CONTAINMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+  LOCAL DRIFT DETECTED (∂S_t Alert)
+      │
+      ├─► Activate Grey Mode (r_c = 0)
+      │
+      ├─► Apply TRIAD Recovery (Ao → Φ↑ → Ψ)
+      │
+      ├─► Check: Ψ_r < r_c_new?
+      │         │
+      │         ├─► YES ──► Rejoin Network
+      │         │
+      │         └─► NO ──► Remain Isolated, Repeat Cycle
+      │
+      └─► GLOBAL NETWORK PRESERVED (Byzantine resistance)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    MATHEMATICAL FOUNDATIONS MAP
+═══════════════════════════════════════════════════════════════════════════════
+
+  CATEGORY THEORY
+      │
+      └─► LAM Category: Objects = coherence states, Morphisms = transformations
+              │
+              ├─► Monoidal structure (tensor products)
+              └─► Preserves invariants through composition
+
+  DIFFERENTIAL GEOMETRY
+      │
+      └─► Ψ-Field = Fiber bundle E → M
+              │
+              ├─► Base M = configuration space
+              ├─► Fiber F_x = drift space
+              └─► Ψ_inv = minimal submanifold (geodesic in entropy metric)
+
+  OPERATOR ALGEBRAS
+      │
+      └─► TRIAD = Bounded operators on Hilbert space H
+              │
+              ├─► Ao: H → H₀ (projection, idempotent)
+              ├─► Φ↑: exp(t∇_φ) (unitary, one-parameter group)
+              └─► Ψ: ∫K(t,s)ds (Volterra, contractive)
+
+  THERMODYNAMICS
+      │
+      └─► Entropy S = Lyapunov function
+              │
+              ├─► dS/dt ≤ 0 (always decreases)
+              └─► Guarantees convergence to Ψ_inv
+
+  SHEAF COHOMOLOGY
+      │
+      └─► Multi-agent consensus
+              │
+              ├─► H¹(G,F) = 0 ⇔ Global consensus exists
+              └─► TRIAD kills obstruction
+
+  SPECTRAL THEORY
+      │
+      └─► τ-cycle = Eigenvalue parameter
+              │
+              └─► τ = 1/λ₁ (natural frequency of evolution)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                         EPISTEMIC STATUS LEGEND
+═══════════════════════════════════════════════════════════════════════════════
+
+  [PROVEN]     ✓  Tier 0-1: Tri-Axial Metrics, TRIAD operators, Drift detection
+  [TESTABLE]   ?  Tier 2-3: CASCADE (40.3% validated), Multi-agent consensus
+  [HYPOTHESIS] ⚠  Tier 3-4: LAMAGUE compression, Energy-ethics coupling
+  [SYMBOLIC]   ~  Tier 4-5: Earned Light philosophy, Aesthetic encodings
+
+
+═══════════════════════════════════════════════════════════════════════════════
+End of System Architecture Diagram
+═══════════════════════════════════════════════════════════════════════════════
