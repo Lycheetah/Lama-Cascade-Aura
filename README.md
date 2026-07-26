@@ -1,3 +1,17 @@
+> ## ⟡ THE OPEN RECORD — MARCH 2026
+>
+> The largest single fold of research in the collection: the Aura Protocol, CASCADE creative systems, atmospheric energy work, and the documents where results were first made public.
+>
+> **This repository is public on purpose.** It is part of an open body of work,
+> preserved as it stood rather than tidied away. Later thinking builds on it and
+> sometimes supersedes it — that supersedes nothing here, and retracts nothing.
+> Read it as of its date.
+>
+> Author: **Mackenzie Conor James Clark** · the Lycheetah Framework  
+> Current work: https://github.com/Lycheetah/Lycheetah-Framework
+
+---
+
 # CASCADE × AURA × LAMAGUE × VEYRA
 ## The Sovereign AI Framework
 
