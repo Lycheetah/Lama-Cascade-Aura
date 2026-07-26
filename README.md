@@ -4,7 +4,7 @@
 >
 > **This repository is public on purpose.** It is part of an open body of work,
 > preserved as it stood rather than tidied away. Later thinking builds on it and
-> sometimes supersedes it — that supersedes nothing here, and retracts nothing.
+> sometimes supersedes it. That diminishes nothing here and retracts nothing.
 > Read it as of its date.
 >
 > Author: **Mackenzie Conor James Clark** · the Lycheetah Framework  
